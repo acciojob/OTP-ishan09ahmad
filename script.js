@@ -1,5 +1,5 @@
 let codesEl=document.querySelectorAll(".code");
-
+codesEl[0].focus();
 codesEl.forEach((code,index)=>
 	{
 	code.addEventListener("input",()=>
